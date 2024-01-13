@@ -6,7 +6,7 @@ function App() {
   const [showAlert, setShowAlert] = useState(false);
   const [editing, setEditing] = useState(null);
   const [editedTask, setEditedTask] = useState("");
-  const [selectedTasks, setSelectedTasks] = useState([]); // Seçilen görevler
+  const [selectedTasks, setSelectedTasks] = useState([]);
   const inputRef = useRef(null);
 
   const addTask = () => {
